@@ -1,14 +1,23 @@
-
-/* Your CSS Code here. */
-.holder{
-	display: flex;
-	flex-wrap:wrap;
-	justify-content: space-between;
+.holder {
+  display:flex
+	;
+  justify-content: space-between; 
+  flex-wrap: wrap;                
+  margin: 20px 0;
 }
 
-.tem{
-	flex: 0 0 auto;
-	padding:10px 20px;
-	backgroung-color: lingh
-	border: 1px solid #000;
+.item {
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content:none;
+  margin-bottom: none; 
 }
+
+.orange { background-color: orangered; }
+.blue { background-color: blue; }
+.green { background-color: green; }
