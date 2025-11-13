@@ -7,16 +7,15 @@
 }
 
 .item {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   color: white;
-  font-size: 3em;
+  font-size: 5em;
   font-weight: bold;
   display: flex;
-  align-items: center;
+  align-items:up;
   justify-content:none;
-  margin-bottom: none;
-	color:BLACK;
+  margin-bottom: none;7color:BLACK;
 }
 
 .orange { background-color: orangered; }
