@@ -1,9 +1,9 @@
 .holder {
-  display:flex
-	;
+  display:flex;
   justify-content: space-between; 
   flex-wrap: wrap;                
   margin: 20px 0;
+	
 }
 
 .item {
@@ -15,7 +15,8 @@
   display: flex;
   align-items: center;
   justify-content:none;
-  margin-bottom: none; 
+  margin-bottom: none;
+	color:BLACK;
 }
 
 .orange { background-color: orangered; }
